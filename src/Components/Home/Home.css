@@ -1,0 +1,116 @@
+.main{
+    padding-top: 10vh;
+}
+
+header {
+  height: 90vh;
+  font-family: "Quicksand", sans-serif;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.cajaNav {
+  height: 10vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.148) ;
+}
+
+.imgLogo {
+  height: 180px;
+  width: 300px;
+  margin-left: 60px;
+  
+}
+
+.logo {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.box_navegacion {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 30px;
+  padding-right: 100px;
+}
+
+.navItem {
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.nav_Items {
+  font-weight: 600;
+  color: #080808;
+}
+
+.underline-hover::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  background-color: black;
+  display: block;
+  transition: ease-in-out 300ms;
+}
+
+.underline-hover:hover::after {
+  width: 100%;
+}
+
+.logoInstagram {
+  font-size: 1.3rem !important;
+}
+
+.clasesOnline{
+    border: 2px solid orange;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* Imagen */
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.cajaHome {
+  height: 75vh;
+  background-image: url("../../../public/fondoFiltro.jpeg");
+  border: 1px solid white ;
+  border-radius: 20px;
+  
+}
+
+/* Nombre */
+
+.cajaTexto {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Caveat", cursive;
+  
+}
+.nombre {
+  color: orangered;
+  font-size: 2rem;
+}
+.frase{
+    font-size: 1.1rem;
+}
+
+.mainBox{
+    height: 100vh;
+}
