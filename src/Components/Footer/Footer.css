@@ -1,3 +1,4 @@
 .footerBox{
     display: flex;
+    flex-direction: row;
 }

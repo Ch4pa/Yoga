@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../../public/logo.png";
+import "./Footer.css";
 
 function Footer() {
   return (
@@ -8,10 +9,6 @@ function Footer() {
         <a href="#">
           <img src={logo} className="imgLogo" alt="logo" title="Logo" />
         </a>
-      </div>
-      <div>
-        <p>Contacto</p>
-        <input type="email" name="" id=""  />
       </div>
     </div>
   );

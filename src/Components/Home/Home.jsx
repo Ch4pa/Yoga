@@ -43,17 +43,17 @@ function Home() {
                   <BiLogoInstagram className="logoInstagram" />
                 </Link>
               </li>
-              <li className="nav_Items clasesOnline">
-                <Link to="#" className="navItem">
-                  Clases Online
-                </Link>
-              </li>
             </ul>
+            <li className="nav_Items clasesOnline boxClasesOnline">
+              <a to="#" className="navItem ">
+                Clases Online
+              </a>
+            </li>
           </nav>
         </section>
         <section className="main">
           <div className="cajaHome"></div>
-            <div className="cajaTexto">
+          <div className="cajaTexto">
             <p className="nombre">Profesora Maria Belen Brizzi</p>
             <p className="frase">
               "...Respira, sentí, viví el yoga, viví en armonía ..."
@@ -61,7 +61,7 @@ function Home() {
           </div>
           <SobreMi />
           <Contacto />
-          <Footer/>
+          <Footer />
         </section>
       </header>
     </div>
