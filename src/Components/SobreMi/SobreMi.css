@@ -1,5 +1,61 @@
-.caja{
-    height: 100vh;
-    background-color: yellow;
-    padding-top: 10vh;
+.caja {
+    background-color: rgba(255, 166, 0, 0.11);
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Objetivo */
+
+.boxObjetivo {
+  width: 30%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.tituloObjetivo {
+  color: orange;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.textoObjetivo {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.imgProfesora{
+    width: 70%;
+    height: 60%;
+    text-align: center;
+}
+/* Trayectoria */
+
+.boxTrayectoria {
+  width: 50%;
+  height: 60vh;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.tituloTrayectoria {
+  color: orange;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.textoTrayectoria {
+    text-align: center;
+    font-size: 1rem;
 }

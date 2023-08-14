@@ -19,7 +19,7 @@ header {
   justify-content: space-between;
   align-items: center;
   justify-items: center;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.148) ;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.42) ;
 }
 
 .navegacion{
@@ -117,7 +117,7 @@ header {
   align-items: center;
   justify-content: center;
   font-family: "Caveat", cursive;
-  
+  border-bottom: 1px solid rgba(128, 128, 128, 0.244);
 }
 .nombre {
   color: orange;
