@@ -1,4 +1,28 @@
-.footerBox{
-    display: flex;
-    flex-direction: row;
+.footerBox {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Caprasimo", cursive;
+  font-size: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.148);
+  background-color: #faeecf;
+}
+
+.imgFooter {
+  height: 150px;
+  width: 250px;
+}
+.texto {
+  font-family: "Caprasimo", cursive;
+  font-size: 13px;
+}
+.iconos {
+  padding-top: 19px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }

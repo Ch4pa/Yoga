@@ -1,61 +1,26 @@
 .caja {
-    background-color: rgba(255, 166, 0, 0.11);
-  height: 80vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-/* Objetivo */
-
-.boxObjetivo {
-  width: 30%;
-  height: 60vh;
+  background-color: #faeecf;
+  height: 85vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 10px;
+  width: 100%;
+  padding-left: 10%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.146);
 }
 
-.tituloObjetivo {
-  color: orange;
-  font-size: 1rem;
-  font-weight: bold;
-  text-align: center;
+.titulo{
+  font-size: 13px;
+  font-family: 'Caprasimo', cursive;
+  padding-top: 5%;
+  height: 20vh;
 }
 
-.textoObjetivo {
-    text-align: center;
-    font-size: 1rem;
+.contenido{
+  font-size: 40px;
+  font-family: 'Caprasimo', cursive;
+  height: auto;
+  width: 80%;
+  text-align: left;
 }
 
-.imgProfesora{
-    width: 70%;
-    height: 60%;
-    text-align: center;
-}
-/* Trayectoria */
 
-.boxTrayectoria {
-  width: 50%;
-  height: 60vh;
-  gap: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
-.tituloTrayectoria {
-  color: orange;
-  font-size: 1rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-.textoTrayectoria {
-    text-align: center;
-    font-size: 1rem;
-}

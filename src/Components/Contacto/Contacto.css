@@ -1,4 +1,42 @@
 .box{
     height: 100vh;
-    background-color: green;
+    background-color: #faeecf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.textoContacto{
+    font-family: 'Caprasimo', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.boxMail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    gap: 5px;
+}
+
+.inputContacto{
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.buttonContacto{
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
 }

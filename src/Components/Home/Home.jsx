@@ -36,9 +36,9 @@ function Home() {
               </li>
               <li className="nav_Items">
                 <Link
-                  to="https://www.instagram.com/belu_brizzi_yoga/ "
+                  /* to="https://www.instagram.com/belu_brizzi_yoga/ "
                   target="_Blank"
-                  className="navItem"
+                  className="navItem" */
                 >
                   <BiLogoInstagram className="logoInstagram" />
                 </Link>
@@ -53,7 +53,7 @@ function Home() {
         </section>
         <section className="main">
           <div className="cajaHome"></div>
-          <div className="cajaTexto">
+          <div className="cajaTexto" id="sobre_mi">
             <p className="nombre">Profesora Maria Belen Brizzi</p>
             <p className="frase">
               "...Respira, sentí, viví el yoga, viví en armonía ..."
