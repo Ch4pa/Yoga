@@ -6,8 +6,7 @@
   align-items: center;
   font-family: "Caprasimo", cursive;
   font-size: 1rem;
-  border-top: 1px solid rgba(0, 0, 0, 0.148);
-  background-color: #faeecf;
+  background-color: #f5f1e3;
 }
 
 .imgFooter {
@@ -24,5 +23,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 7px;
+}
+
+.logos{
+  font-size: 1.2rem;
 }

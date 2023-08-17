@@ -34,15 +34,6 @@ function Home() {
                   Contacto
                 </a>
               </li>
-              <li className="nav_Items">
-                <Link
-                  /* to="https://www.instagram.com/belu_brizzi_yoga/ "
-                  target="_Blank"
-                  className="navItem" */
-                >
-                  <BiLogoInstagram className="logoInstagram" />
-                </Link>
-              </li>
             </ul>
             <li className="nav_Items clasesOnline boxClasesOnline">
               <a to="#" className="navItem ">

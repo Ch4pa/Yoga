@@ -1,26 +1,47 @@
 .caja {
-  background-color: #faeecf;
+  background-color: #f5f1e3;
   height: 85vh;
   display: flex;
   flex-direction: column;
   width: 100%;
   padding-left: 10%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.146);
 }
 
-.titulo{
+.titulo {
   font-size: 13px;
-  font-family: 'Caprasimo', cursive;
+  font-family: "Caprasimo", cursive;
   padding-top: 5%;
   height: 20vh;
 }
 
-.contenido{
+.contenido {
   font-size: 40px;
-  font-family: 'Caprasimo', cursive;
+  font-family: "Caprasimo", cursive;
   height: auto;
   width: 80%;
   text-align: left;
 }
 
+.boxCard {
+  background-color: #f5f1e3;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
 
+.card1 {
+  width: 45%;
+  height: 50vh;
+  border: black solid 1px;
+  border-radius: 20px;
+  text-align: center;
+}
+.card2 {
+  width: 35%;
+  height: 50vh;
+  border: black solid 1px;
+  border-radius: 20px;
+  text-align: center;
+}

@@ -12,7 +12,7 @@ function Contacto() {
       </div>
       <div className="boxMail">
         <input type="text" className="inputContacto" placeholder="name@email.com"/>
-        <button className="buttonContacto">Subscribirse</button>
+        <button className="buttonContacto">Susscribirse</button>
       </div>
     </div>
   );

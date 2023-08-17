@@ -12,7 +12,12 @@ function SobreMi() {
           una experiencia revitalizante e inolvidable!
         </h1>
       </div>
-      
+      <div className="boxCard">
+        <div className="card1"></div>
+        <div className="card2"></div>
+        <div className="card2"></div>
+        <div className="card1"></div>
+      </div>
     </div>
   );
 }

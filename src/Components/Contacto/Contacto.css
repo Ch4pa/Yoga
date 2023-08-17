@@ -1,6 +1,6 @@
 .box{
-    height: 100vh;
-    background-color: #faeecf;
+    height: 80vh;
+    background-color: #f5f1e3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,4 +39,5 @@ input::placeholder{
     border: 1px solid black;
     border-radius: 10px;
     font-size: 1rem;
+    background-color: orange;
 }
