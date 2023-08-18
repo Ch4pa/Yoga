@@ -4,9 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Caprasimo", cursive;
-  font-size: 1rem;
-  background-color: #f5f1e3;
+  background-color: aliceblue;
 }
 
 .imgFooter {
@@ -14,11 +12,12 @@
   width: 250px;
 }
 .texto {
-  font-family: "Caprasimo", cursive;
-  font-size: 13px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: black;
 }
 .iconos {
-  padding-top: 19px;
+  padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
   justify-content: center;

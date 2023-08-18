@@ -1,8 +1,6 @@
 import React from "react";
 import logo from "../../../public/logo.png";
 import "./Home.css";
-import { BiLogoInstagram } from "react-icons/bi";
-import { Link } from "react-router-dom";
 import SobreMi from "../SobreMi/SobreMi";
 import Contacto from "../Contacto/Contacto";
 import Footer from "../Footer/Footer";
@@ -44,12 +42,6 @@ function Home() {
         </section>
         <section className="main">
           <div className="cajaHome"></div>
-          <div className="cajaTexto" id="sobre_mi">
-            <p className="nombre">Profesora Maria Belen Brizzi</p>
-            <p className="frase">
-              "...Respira, sentí, viví el yoga, viví en armonía ..."
-            </p>
-          </div>
           <SobreMi />
           <Contacto />
           <Footer />

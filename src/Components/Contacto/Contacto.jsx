@@ -11,8 +11,8 @@ function Contacto() {
         Namaste, El Equipo de Yoga Palermo.
       </div>
       <div className="boxMail">
-        <input type="text" className="inputContacto" placeholder="name@email.com"/>
-        <button className="buttonContacto">Susscribirse</button>
+        <input type="text" className="inputContacto" placeholder="Correo electrónico"/>
+        <button className="buttonContacto">Suscribirse</button>
       </div>
     </div>
   );
