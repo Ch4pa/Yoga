@@ -13,13 +13,12 @@ header {
 .cajaNav {
   height: 15vh;
   width: 100%;
-  background-color: aliceblue;
+  background-color: white;
   display: flex;
   position: fixed;
   justify-content: space-between;
   align-items: center;
   justify-items: center;
-  border-bottom:1px solid rgba(165, 42, 42, 0.292) ;
 }
 
 .navegacion{

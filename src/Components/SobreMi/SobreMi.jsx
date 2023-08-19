@@ -35,8 +35,7 @@ function SobreMi() {
           <div className="preguntas">
             <h2 className="tituloTexto">¿Para quiénes están diseñadas las clases?</h2>
             <p className="textoPregunta">
-              Nuestras clases están diseñadas para todos los niveles, desde
-              principiantes hasta yoguis experimentados. Ofrecemos orientación y
+              Nuestras clases están diseñadas para todos los niveles. Ofrecemos orientación y
               modificaciones para adaptarnos a tu nivel.
             </p>
           </div>

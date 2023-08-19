@@ -1,5 +1,5 @@
 .caja {
-  background-color: aliceblue;
+  background-color: white;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -67,18 +67,26 @@
   padding-top: 20vh;
 }
 
+.tituloPregunta{
+  height: 10%;
+  font-size: 2rem;
+  color: rgb(58, 30, 3);
+  font-weight: lighter;
+}
 .boxPreguntasTexto{
   display: flex;
-  height: 45vh;
+  height: auto;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 5vh;
   padding-top: 10vh;
+  padding-bottom: 5vh;
 }
 
 .preguntas{
-width: 35%;
+width: 60vh;
+height: 100%;
 text-align: start;
 border: 1px solid rgba(0, 0, 0, 0.18);
 box-shadow: 2px 2px 2px 2px rgba(23, 15, 0, 0.557);
@@ -86,11 +94,6 @@ padding: 15px;
 border-radius: 15px;
 }
 
-.tituloPregunta{
-  font-size: 2rem;
-  color: rgb(58, 30, 3);
-  font-weight: lighter;
-}
 
 .tituloTexto{
   padding-bottom: 4vh;
