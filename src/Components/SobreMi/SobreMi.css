@@ -1,5 +1,4 @@
 .caja {
-  background-color: white;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -10,7 +9,7 @@
 .titulo {
   font-size: 0.8rem;
   font-family: "Caprasimo", cursive;
-  padding-top: 5%;
+  padding-top: 4%;
   height: 20vh;
 }
 
@@ -26,7 +25,6 @@
 }
 
 .boxCard {
-  background-color: aliceblue;
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -44,10 +42,10 @@
   background-image: url("../../../public/pexels-elina-fairytale-3823073.jpg");
   background-position-x: center;
   background-size: cover;
-  background-position-y:400px;
+  background-position-y: 400px;
 }
 
-.fotoCard{
+.fotoCard {
   border-radius: 20px;
   height: 100%;
 }
@@ -60,20 +58,19 @@
 }
 
 .boxPreguntas {
-  background-color: aliceblue;
   text-align: center;
   height: auto;
   width: 100%;
   padding-top: 20vh;
 }
 
-.tituloPregunta{
+.tituloPregunta {
   height: 10%;
   font-size: 2rem;
   color: rgb(58, 30, 3);
   font-weight: lighter;
 }
-.boxPreguntasTexto{
+.boxPreguntasTexto {
   display: flex;
   height: auto;
   flex-wrap: wrap;
@@ -84,28 +81,27 @@
   padding-bottom: 5vh;
 }
 
-.preguntas{
-width: 60vh;
-height: 100%;
-text-align: start;
-border: 1px solid rgba(0, 0, 0, 0.18);
-box-shadow: 2px 2px 2px 2px rgba(23, 15, 0, 0.557);
-padding: 15px;
-border-radius: 15px;
+.preguntas {
+  width: 60vh;
+  height: 100%;
+  text-align: start;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  box-shadow: 2px 2px 2px 2px rgba(23, 15, 0, 0.557);
+  padding: 15px;
+  border-radius: 15px;
 }
 
-
-.tituloTexto{
+.tituloTexto {
   padding-bottom: 4vh;
   color: black;
   font-size: 0.9rem;
   font-weight: lighter;
 }
-h2{
+h2 {
   font-family: "Caprasimo", cursive;
 }
 
-.textoPregunta{
+.textoPregunta {
   font-weight: 600;
   font-size: 1rem;
 }

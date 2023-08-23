@@ -7,8 +7,8 @@ import Footer from "../Footer/Footer";
 
 function Home() {
   return (
-    <div className="body" id="inicio">
-      <header>
+    <div  id="inicio">
+      <header className="body">
         <section className="cajaNav">
           <div className="logoImg">
             <a href="#">

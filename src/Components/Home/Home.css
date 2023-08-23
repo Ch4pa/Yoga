@@ -1,6 +1,5 @@
 .main{
     padding-top: 15vh;
-    background-color: aliceblue;
 }
 
 header {
@@ -12,8 +11,8 @@ header {
 
 .cajaNav {
   height: 15vh;
-  width: 100%;
   background-color: white;
+  width: 100%;
   display: flex;
   position: fixed;
   justify-content: space-between;
@@ -29,9 +28,9 @@ header {
 }
 
 .imgLogo {
-  height: 220px;
-  width: 350px;
-  margin-left: 60px;
+  height: 50px;
+  width: 170px;
+  margin-left: 70px;
   
 }
 
@@ -83,6 +82,10 @@ header {
     cursor: pointer;
 }
 
+.clasesOnline a{
+  background-color: orange;
+}
+
 .boxClasesOnline:hover{
   width: 130px;
   height: 35px;
@@ -97,15 +100,18 @@ header {
 .main{
     display: flex;
     flex-direction: column;
+    justify-self: center;
+    align-items: center;
 }
 .cajaHome {
   height: 70vh;
+  width: 90%;
   background-image: url("../../../public/Fondo3.jpeg");
   background-size:cover;
   background-position-x: center;
   background-position-y: bottom;
-  border: 1px solid white ;
-  border-radius: 10px;
+  border: 1.5px solid rgb(58, 30, 3) ;
+  border-radius: 40px;
 }
 
 /* Nombre */
