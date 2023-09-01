@@ -1,9 +1,9 @@
-.main{
-    padding-top: 15vh;
+.main {
+  padding-top: 15vh;
 }
 
 header {
-  height: 85vh;
+  height: 100vh;
   font-family: "Quicksand", sans-serif;
   display: flex;
   flex-direction: column;
@@ -20,8 +20,8 @@ header {
   justify-items: center;
 }
 
-.navegacion{
-  width: 40%;
+.navegacion {
+  width: 35%;
   display: flex;
   align-items: center;
   gap: 30px;
@@ -30,8 +30,7 @@ header {
 .imgLogo {
   height: 50px;
   width: 170px;
-  margin-left: 70px;
-  
+  margin-left: 15vh;
 }
 
 .logo {
@@ -45,14 +44,14 @@ header {
   gap: 30px;
 }
 
-
 .navItem {
   text-decoration: none;
+  font-weight: bold;
   font-size: 0.9rem;
+  font-weight: 900;
 }
 
-.nav_Items {
-  font-weight: 600;
+.nav_Items a {
   color: #080808;
 }
 
@@ -60,7 +59,8 @@ header {
   content: "";
   height: 2px;
   width: 0;
-  background-color: black;
+  background-color: #f4a8ac;
+  opacity: 0.5;
   display: block;
   transition: ease-in-out 300ms;
 }
@@ -69,49 +69,67 @@ header {
   width: 100%;
 }
 
-.logoInstagram {
-  font-size: 1.3rem !important;
+.clasesOnline {
+  border: 2px solid #f4a8ac;
+  background-color: #f4a8ac;
+  color: white;
+  border-radius: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 
-.clasesOnline{
-    border: 2px solid orange;
-    background-color: orange;
-    color: white;
-    border-radius: 15px 5px;
-    padding: 2px 15px 2px 15px;
-    cursor: pointer;
+.clasesOnline a {
+  background-color: #f4a8ac;
 }
 
-.clasesOnline a{
-  background-color: orange;
-}
-
-.boxClasesOnline:hover{
-  width: 130px;
-  height: 35px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.boxClasesOnline:hover {
 }
 /* Imagen */
 
-.main{
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    align-items: center;
+.main {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.mainHome {
+  width: 35%;
+  gap: 3%;
+  text-align: end;
+}
+.tituloHome {
+  font-size: 7rem;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  width: 100%;
+}
+
+.subtituloHome {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.textoImg {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-right: 5px;
+  text-align: end;
+}
+.textoImg {
+  font-size: 1rem;
+  font-weight: bolder;
+  padding-left: 10%;
 }
 .cajaHome {
   height: 70vh;
-  width: 90%;
-  background-image: url("../../../public/Fondo3.jpeg");
-  background-size:cover;
+  background-image: url("../../../public/fondo4.jpg");
+  width: 47%;
+  background-size: cover;
   background-position-x: center;
-  background-position-y: bottom;
-  border: 1.5px solid rgb(58, 30, 3) ;
+  background-position-y: center;
   border-radius: 40px;
+  box-shadow: 2px 2px rgba(87, 84, 84, 0.053);
 }
 
 /* Nombre */
@@ -126,15 +144,15 @@ header {
   gap: 5px;
 }
 .nombre {
-  color: orange;
-  font-family: 'Caprasimo', cursive;
+  color: #f4a8ac;
+  font-family: "Caprasimo", cursive;
   font-size: 1.5rem;
 }
-.frase{
-    font-size: 0.8rem;
-    font-family: 'Caprasimo', cursive;
+.frase {
+  font-size: 0.8rem;
+  font-family: "Caprasimo", cursive;
 }
 
-.mainBox{
-    height: 100vh;
+.mainBox {
+  height: 100vh;
 }

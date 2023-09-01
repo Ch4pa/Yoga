@@ -21,9 +21,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 7px;
+  gap: 20px;
 }
 
-.logos{
+.logos {
   font-size: 1.2rem;
 }

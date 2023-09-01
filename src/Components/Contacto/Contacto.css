@@ -1,48 +1,49 @@
-.box{
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 40px;
+.box {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
 }
 
-.textoContacto{
-    font-family: 'Caprasimo', cursive;
-    font-size: 1.5rem;
-    text-align: center;
+.textoContacto {
+  font-size: 1.5rem;
+  color: #f4a8ac;
+  text-align: center;
+  font-family: "Playfair Display", serif;
 }
 
-.boxMail{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 30%;
-    gap: 5px;
+.boxMail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  gap: 5px;
 }
 
-.inputContacto{
-    height: 35px;
-    border: 1px solid black;
-    border-radius: 10px;
-    font-size: 0.8rem;
-    font-weight: bold;
-    padding-left: 10px;
+.inputContacto {
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding-left: 10px;
 }
 
-input::placeholder{
-    text-align: start;
-    font-size: 0.8rem;
-    font-weight: bold;
+input::placeholder {
+  text-align: start;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
-.buttonContacto{
-    height: 35px;
-    border: 1px solid black;
-    background-color: rgb(58, 30, 3);
-    color: azure;
-    border-radius: 10px;
-    font-size: 0.8rem;
-    font-weight: bolder;
-    cursor: pointer;
+.buttonContacto {
+  height: 35px;
+  border: 1px solid black;
+  background-color: #f4a8ac;
+  color: white;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  cursor: pointer;
 }

@@ -7,7 +7,7 @@ import Footer from "../Footer/Footer";
 
 function Home() {
   return (
-    <div  id="inicio">
+    <div id="inicio">
       <header className="body">
         <section className="cajaNav">
           <div className="logoImg">
@@ -41,12 +41,21 @@ function Home() {
           </nav>
         </section>
         <section className="main">
+          <div className="mainHome">
+            <h1 className="tituloHome">Yoga</h1>
+            <h2 className=" subtituloHome">& Meditacion</h2>
+            <p className="textoImg">
+              El objetivo de practicar yoga es cultivar la armonía entre la
+              mente, el cuerpo y el espíritu, promoviendo la salud, la
+              relajación y el bienestar físico y mental.
+            </p>
+          </div>
           <div className="cajaHome"></div>
-          <SobreMi />
-          <Contacto />
-          <Footer />
         </section>
       </header>
+      <SobreMi />
+      <Contacto />
+      <Footer />
     </div>
   );
 }
