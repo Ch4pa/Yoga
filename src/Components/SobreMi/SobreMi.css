@@ -1,3 +1,87 @@
+.boxNaranja {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  background-color: #ff6201;
+  color: white;
+}
+
+.boxNaranja p {
+  text-align: center;
+  width: 50%;
+  font-size: 1.6rem;
+  font-family: "Abhaya Libre";
+  font-style: italic;
+}
+
+.clasesYoga {
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clasesYoga h1 {
+  margin-top: 10vh;
+  font-family: sans-serif;
+  font-size: 1.4rem;
+}
+
+span {
+  color: #ff6201;
+  font-weight: bolder;
+}
+
+.clasesYoga p {
+  color: #000;
+  margin-top: 1vh;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  height: auto;
+  margin-top: 4%;
+  align-items: center;
+  gap: 2%;
+}
+
+.cardFlow {
+  width: 60%;
+}
+
+.imgFlow {
+  width: 70%;
+  border: 1px;
+  border-radius: 40px;
+}
+
+.cardPower {
+  width: 60%;
+}
+
+.imgPower {
+  width: 80%;
+  border: 1px;
+  border-radius: 40px;
+}
+
+.cardIntegral {
+  width: 60%;
+}
+
+.imgIntegral {
+  width: 70%;
+  border: 1px;
+  border-radius: 40px;
+}
+
 .caja {
   height: auto;
   display: flex;
@@ -13,8 +97,7 @@
 }
 
 .contenido {
-  font-size: 2rem; /* 
-  color: #f4a8ac; */
+  font-size: 2rem;
   font-family: "Playfair Display", sans-serif;
   height: auto;
   width: 100%;
@@ -25,7 +108,9 @@
 
 .boxCard {
   height: auto;
+  width: 100%;
   display: flex;
+  flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
@@ -34,24 +119,21 @@
 }
 
 .card1 {
-  width: 45%;
+  width: 60%;
   height: 50vh;
   border: black solid 1px;
   border-radius: 20px;
   text-align: center;
+  box-shadow: 0px 0px 10px #000;
   background-image: url("../../../public/card4.jpg");
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
 }
 
-.fotoCard {
-  border-radius: 20px;
-  height: 100%;
-}
 .card2 {
   width: 35%;
-  height: 50vh;
+  height: auto;
   font-family: "Playfair Display", serif;
   text-align: start;
   display: flex;

@@ -10,7 +10,7 @@ header {
 }
 
 .cajaNav {
-  height: 15vh;
+  height: 20vh;
   background-color: white;
   width: 100%;
   display: flex;
@@ -54,14 +54,14 @@ header {
 }
 
 .nav_Items a {
-  color: #080808;
+  color: black;
 }
 
 .underline-hover::after {
   content: "";
   height: 2px;
   width: 0;
-  background-color: #f4a8ac;
+  background-color: #ff6101;
   opacity: 0.5;
   display: block;
   transition: ease-in-out 300ms;
@@ -71,22 +71,23 @@ header {
   width: 100%;
 }
 
-.clasesOnline {
-  border: 2px solid #f4a8ac;
-  background-color: #f4a8ac;
+.clasesOnline a {
+  background-color: #ff6201c0;
   color: white;
   border-radius: 15px;
-  padding: 2px;
+  padding: 6px;
   cursor: pointer;
 }
 /* Imagen */
 
 .main {
+  height: 100vh;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   gap: 5%;
+  margin-top: 10px;
 }
 .mainHome {
   width: 35%;
@@ -121,10 +122,8 @@ header {
   background-image: url("../../../public/fondo4.jpg");
   width: 47%;
   background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
+  background-position: center;
   border-radius: 40px;
-  box-shadow: 2px 2px rgba(87, 84, 84, 0.053);
 }
 
 /* Nombre */
@@ -152,7 +151,7 @@ header {
   height: 100vh;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (width< 850px) {
   header {
     height: auto;
   }
@@ -174,7 +173,7 @@ header {
     margin-bottom: 10%;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (width<600px) {
   header {
     height: auto;
   }
@@ -191,7 +190,7 @@ header {
   }
   .cajaHome {
     background-image: url(../../../public/Fondo800width.jpg);
-    background-position: center;
+    background-position-x: left;
     width: 80%;
     margin-top: 10%;
     margin-bottom: 10%;
