@@ -1,8 +1,8 @@
 import React from "react";
 import "./SobreMi.css";
-import CardIntegral from "../../../public/Card2.jpg";
-import CardFlow from "../../../public/Card2.jpg";
-import CardPower from "../../../public/Card2.jpg";
+import CardIntegral from "../../../public/card2.jpg";
+import CardFlow from "../../../public/card2.jpg";
+import CardPower from "../../../public/card2.jpg";
 function SobreMi() {
   return (
     <div className="cajaMain">
