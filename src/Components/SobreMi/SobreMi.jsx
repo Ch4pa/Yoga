@@ -1,5 +1,6 @@
 import React from "react";
 import "./SobreMi.css";
+import "../Home/Home.css";
 import CardIntegral from "../../../public/card2.jpg";
 import CardFlow from "../../../public/card2.jpg";
 import CardPower from "../../../public/card2.jpg";
@@ -40,6 +41,18 @@ function SobreMi() {
           </div>
         </div>
       </div>
+      <section className="main">
+        <div className="mainHome">
+          <h1 className="tituloHome">Yoga</h1>
+          <h2 className=" subtituloHome">& Meditacion</h2>
+          <p className="textoImg">
+            El objetivo de practicar yoga es cultivar la armonía entre la mente,
+            el cuerpo y el espíritu, promoviendo la salud, la relajación y el
+            bienestar físico y mental.
+          </p>
+        </div>
+        <div className="cajaHome"></div>
+      </section>
     </div>
   );
 }
