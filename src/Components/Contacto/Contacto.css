@@ -9,7 +9,7 @@
 
 .textoContacto {
   font-size: 1.5rem;
-  color: #f4a8ac;
+  color: #ff6201;
   text-align: center;
   font-family: "Playfair Display", serif;
 }
@@ -18,13 +18,15 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 30%;
-  gap: 5px;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
 }
 
 .inputContacto {
   height: 35px;
-  border: 1px solid black;
+  width: 50%;
+  border: 1px solid;
   border-radius: 10px;
   font-size: 0.8rem;
   font-weight: bold;
@@ -34,16 +36,59 @@
 input::placeholder {
   text-align: start;
   font-size: 0.8rem;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .buttonContacto {
   height: 35px;
-  border: 1px solid black;
-  background-color: #f4a8ac;
+  width: 30%;
+  background-color: #ff6201c0;
   color: white;
   border-radius: 10px;
   font-size: 0.8rem;
   font-weight: bolder;
   cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .box {
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .textoContacto {
+    font-size: 1.5rem;
+    color: #ff6201;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+  }
+  .inputContacto {
+    height: 35px;
+    width: 60%;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+
+  input::placeholder {
+    text-align: start;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  .buttonContacto {
+    height: 35px;
+    width: 30%;
+    background-color: #ff6201c0;
+    color: white;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    cursor: pointer;
+  }
 }

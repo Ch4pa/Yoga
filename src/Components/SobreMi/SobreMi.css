@@ -1,8 +1,19 @@
+.boxWaves {
+}
+.waves1 {
+  height: auto;
+  margin-bottom: -5%;
+}
+.waves2 {
+  height: auto;
+  margin-top: -2%;
+}
+
 .boxNaranja {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 30vh;
+  height: 25vh;
   background-color: #ff6201;
   color: white;
 }
@@ -78,4 +89,22 @@ span {
   width: 250px;
   border: 1px;
   border-radius: 40px;
+}
+
+@media screen and (max-width: 480px) {
+  .boxNaranja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    background-color: #ff6201;
+    color: white;
+  }
+  .boxNaranja p {
+    text-align: center;
+    width: 50%;
+    font-size: 1.4rem;
+    font-family: "Abhaya Libre";
+    font-style: italic;
+  }
 }
