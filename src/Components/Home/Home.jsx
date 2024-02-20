@@ -4,7 +4,6 @@ import "./Home.css";
 import SobreMi from "../SobreMi/SobreMi";
 import Contacto from "../Contacto/Contacto";
 import Footer from "../Footer/Footer";
-import FlordeLoto from "../../../public/FlordeLotoFondo.png";
 
 function Home() {
   return (
@@ -58,7 +57,6 @@ function Home() {
       <SobreMi />
       <Contacto />
       <Footer />
-      <div className="fondoflor"></div>
     </div>
   );
 }

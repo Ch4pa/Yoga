@@ -150,13 +150,6 @@ header {
   height: 100vh;
 }
 
-.fondoflor {
-  height: auto;
-  position: relative;
-  background-image: url("../../../public/FlordelotoFondo.png");
-  background-size: 100px;
-}
-
 @media screen and (width< 850px) {
   header {
     height: auto;
